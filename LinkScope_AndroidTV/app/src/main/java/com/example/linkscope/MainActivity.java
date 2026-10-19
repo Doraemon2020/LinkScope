@@ -193,7 +193,7 @@ public class MainActivity extends Activity {
         pill.setBackground(solid(0xff263249,50,1,0xff43546E));
         card.addView(pill,lp(-1,dp(49)));
         TextView latency=text("— ms",31,WHITE,true);
-        LinearLayout.LayoutParams lat=lp(-1,dp(49));lat.topMargin=dp(8);card.addView(lat,lat);
+        LinearLayout.LayoutParams lat=lp(-1,dp(49));lat.topMargin=dp(8);card.addView(latency,lat);
         TextView info=text("",11,MUTED,false);
         info.setSingleLine(true);info.setEllipsize(TextUtils.TruncateAt.END);
         card.addView(info,lp(-1,dp(18)));
